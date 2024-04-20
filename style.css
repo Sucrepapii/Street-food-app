@@ -185,6 +185,10 @@ nav {
   transform: translateY(-8rem);
 }
 
+.app__container {
+    
+}
+
 @media (width > 768px) {
   nav {
     position: static;
