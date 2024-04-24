@@ -39,3 +39,40 @@ ScrollReveal().reveal('.header__image img',{
     duration: 1000,
     delay: 2000,
 });
+
+ScrollReveal().reveal('.app__image-1, .app__image-3',{
+    ...scrollRevealOption,
+    origin: "left",
+});
+
+ScrollReveal().reveal('.app__image-2',{
+    ...scrollRevealOption,
+    origin: "right",
+});
+
+ScrollReveal().reveal('.app__card h5',{
+    ...scrollRevealOption,
+    delay: 500,
+});
+
+ScrollReveal().reveal('.app__card h4',{
+    ...scrollRevealOption,
+    delay: 1000,
+});
+
+ScrollReveal().reveal('.app__card p',{
+    ...scrollRevealOption,
+    delay: 1500,
+});
+
+ScrollReveal().reveal(".download__container .section__header",{
+    ...scrollRevealOption,
+});
+ScrollReveal().reveal('.download__container p',{
+    ...scrollRevealOption,
+    delay: 500,
+});
+ScrollReveal().reveal('.download__container .download__btns',{
+    ...scrollRevealOption,
+    delay: 1000,
+});
